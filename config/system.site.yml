@@ -1,0 +1,14 @@
+uuid: e2f919b7-5cb3-4e4f-b835-cbc60d48cc9a
+name: cubear-alpha1
+mail: alisonjo2786@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
