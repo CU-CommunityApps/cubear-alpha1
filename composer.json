@@ -39,6 +39,7 @@
     "drupal/features_ui": "^3.5",
     "drupal/field_group": "^1.0@RC",
     "drupal/kint": "^1.0@RC",
+    "drupal/libraries": "3.x-dev",
     "drupal/media_entity": "1.x-dev",
     "drupal/module_filter": "^3.0",
     "drupal/override_node_options": "^2.0",
