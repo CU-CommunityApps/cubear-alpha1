@@ -65,7 +65,8 @@
     "drush/drush": "~8",
     "harvesthq/chosen": "^1.6",
     "rvtraveller/qs-composer-installer": "^1.1",
-    "webflo/drupal-core-strict": "^8"
+    "webflo/drupal-core-strict": "^8",
+    "wikimedia/composer-merge-plugin": "^1.4"
   },
   "require-dev": {
     "behat/behat": "3.*",
