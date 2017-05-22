@@ -7,6 +7,21 @@
     {
       "type": "composer",
       "url": "https://packages.drupal.org/8"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "harvesthq/chosen",
+        "version": "1.6.1",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://github.com/harvesthq/chosen/releases/download/v1.6.1/chosen_v1.6.1.zip",
+          "type": "zip"
+        },
+        "require": {
+            "composer/installers": "^1.2.0"
+        }
+      }
     }
   ],
     "require": {
@@ -48,6 +63,7 @@
     "drupal/toolbar_anti_flicker": "^2.6",
     "drupal/vertical_tabs_config": "^1.2",
     "drush/drush": "~8",
+    "harvesthq/chosen": "^1.6",
     "rvtraveller/qs-composer-installer": "^1.1",
     "webflo/drupal-core-strict": "^8"
   },
@@ -101,7 +117,8 @@
       "web/modules/contrib/{$name}": ["type:drupal-module"],
       "web/profiles/contrib/{$name}": ["type:drupal-profile"],
       "web/themes/contrib/{$name}": ["type:drupal-theme"],
-      "drush/contrib/{$name}": ["type:drupal-drush"]
+      "drush/contrib/{$name}": ["type:drupal-drush"],
+      "libraries/{$name}": ["type:drupal-library"]
     },
     "build-env": {
       "install-cms": [

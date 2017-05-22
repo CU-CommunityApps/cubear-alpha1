@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "629cc5d3d35fd0966b84b62b60e10fec",
-    "content-hash": "a24545b4c279a7d4718a9134d3065172",
+    "hash": "e8719796b5770af60c6a28aacb85f168",
+    "content-hash": "4eccf3e799930f3b243d967accc56f9c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3907,6 +3907,20 @@
                 "url"
             ],
             "time": "2017-03-20 17:10:46"
+        },
+        {
+            "name": "harvesthq/chosen",
+            "version": "1.6.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/harvesthq/chosen/releases/download/v1.6.1/chosen_v1.6.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.2.0"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "ircmaxell/password-compat",
